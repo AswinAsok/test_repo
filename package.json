@@ -1,10 +1,13 @@
 {
+  "homepage": "https://aswinasok.github.io/test_repo/",
   "name": "test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
