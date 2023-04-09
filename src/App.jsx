@@ -22,7 +22,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/App.jsx</code> and savee to test HMR
         </p>
         <p>{import.meta.env.VITE_SOME_KEY}</p>
       </div>
